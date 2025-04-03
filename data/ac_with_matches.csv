@@ -1,4 +1,4 @@
-ID,AC,GN,protein_name,GO_F Count,GO_P Count,GO_C Count,all_go_counts,bin,normalized_protein,normalized_AC,MATCH,PMC_ID_COUNT_AC,PMC_TERM_COUNT_AC,PMC_Count_protein_name_y
+ID,ac_id,GN,ac_term,GO_F Count,GO_P Count,go_annotations,all_go_counts,bin,normalized_protein,normalized_AC,ac_match,ac_id_pmc,ac_term_pmc,PMC_Count_protein_name_y
 CLN6_HUMAN,Q9NWW5,CLN6,Ceroid-lipofuscinosis neuronal protein 6,3,9,8,20,bin_5,Ceroid-lipofuscinosis neuronal protein 6,P49768,0,0,4167,4167
 S6A14_HUMAN,Q9UN76,SLC6A14,Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+) ,7,8,5,20,bin_5,Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+),P53707,0,10,189,189
 S6A20_HUMAN,Q9NP91,SLC6A20,Sodium- and chloride-dependent transporter XTRP3 ,7,11,2,20,bin_5,Sodium- and chloride-dependent transporter XTRP3,P0C7T5,0,4,8,8
