@@ -42,13 +42,12 @@ We analyze performance using correlation, binning, Zipf plots, logistic regressi
 ```
 
 ---
+🧠 Key Findings
+	•	📈 Mapping accuracy increases with ontology ID frequency in PMC for HPO, GO, and UniProtKB.
+	•	🔠 GPT-4 performs consistently well on gene symbol mapping (GS), likely due to lexical familiarity.
+	•	🎯 ROC-based thresholds help define mappable vs. unmappable terms.
+	•	🧮 Zipf plots and bin analyses reveal a strong frequency-performance relationship.
 
-## 🧠 Key Findings
-
-- Mapping accuracy **increases with ontology ID frequency** in the literature for HPO, GO, and UniProtKB IDs.
-- GPT-4's mapping to gene symbols shows **high accuracy regardless of frequency**, likely due to **lexicalization**.
-- ROC-based thresholds effectively distinguish mappable vs. unmappable terms based on ID counts in PMC.
-- Zipf plots and bin-based analyses illustrate a clear frequency-performance relationship.
 
 📝 See full paper for detailed results and interpretation:  
 **_Mapping Biomedical Ontology Terms to IDs: Effect of Domain Prevalence on Prediction Accuracy_**
@@ -56,11 +55,9 @@ We analyze performance using correlation, binning, Zipf plots, logistic regressi
 ---
 **Sample Zipf Plot for GO terms from cellular component hierarchy**
 ![Zipf Plot for GO ID Frequency](results/zipf_plot_go_id_pmc.png)
-📈 Sample Figure
+📊 Sample Zipf Plot: GO ID Frequency
 
-This Zipf plot illustrates the frequency effect for Gene Ontology (GO) ID mappings. 
-More frequent IDs in the literature are more likely to be correctly 
-predicted by large language models.
+This plot shows the Zipfian distribution of GO IDs and its impact on GPT-4 mapping accuracy.
    	•	🟢 Green = Correct mappings
 	•	🔴 Red = Incorrect mappings
 	•	⚫ Dashed line = Power-law trend
