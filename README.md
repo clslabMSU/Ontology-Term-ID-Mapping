@@ -54,6 +54,17 @@ We analyze performance using correlation, binning, Zipf plots, logistic regressi
 **_Mapping Biomedical Ontology Terms to IDs: Effect of Domain Prevalence on Prediction Accuracy_**
 
 ---
+**Sample Zipf Plot for GO terms from cellular component hierarchy**
+![Zipf Plot for GO ID Frequency](results/zipf_plot_go_id_pmc.png)
+📈 Sample Figure
+
+This Zipf plot illustrates the frequency effect for Gene Ontology (GO) ID mappings. 
+More frequent IDs in the literature are more likely to be correctly 
+predicted by large language models.
+    Green dots: Correctly mapped terms
+    Red dots: Incorrectly mapped terms
+    Dashed line: Trend showing power-law distribution
+
 
 ## 🚀 Getting Started
 
