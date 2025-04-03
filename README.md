@@ -61,10 +61,9 @@ We analyze performance using correlation, binning, Zipf plots, logistic regressi
 This Zipf plot illustrates the frequency effect for Gene Ontology (GO) ID mappings. 
 More frequent IDs in the literature are more likely to be correctly 
 predicted by large language models.
-    Green dots: Correctly mapped terms
-    Red dots: Incorrectly mapped terms
-    Dashed line: Trend showing power-law distribution
-
+   	•	🟢 Green = Correct mappings
+	•	🔴 Red = Incorrect mappings
+	•	⚫ Dashed line = Power-law trend
 
 ## 🚀 Getting Started
 
